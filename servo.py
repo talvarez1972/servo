@@ -11,9 +11,9 @@ servo1.start(7.5)
 try:
 	while True:
 		servo1.ChangeDutyCycle(7.5) #Neutral
-		time.sleep(1)
+		time.sleep(1.6)
 		servo1.ChangeDutyCycle(12.5) #180 degrees
-		time.sleep(1)
+		time.sleep(2)
 		servo1.ChangeDutyCycle(7.5) #0 degrees
 		time.sleep(1)
 except KeyboardInterrupt:
